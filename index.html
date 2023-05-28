@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="author" href="https://henghuiding.github.io/PADing">
+  <title>Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation</title>
+  <meta name="description" content="Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation">
+  <meta name="keywords" content="D2Zero; Zero-shot instance segmentation; Generalized zero-shot instance segmentation; CVPR 2023; ; Henghui Ding; Nanyang Technological University; Computer Vision">
+  
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation">
+  <meta property="og:title" content="Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation"/>
+  <meta property="og:description" content="Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation"/>
+  <meta property="og:url" content="https://henghuiding.github.io/PADing"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation">
+  <meta name="twitter:description" content="Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="D2Zero; Zero-shot instance segmentation; Generalized zero-shot instance segmentation; CVPR 2023; ; Henghui Ding; Nanyang Technological University; Computer Vision">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  
+  <link rel="icon" type="image/x-icon" href="static/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <meta name="google-site-verification" content="RHqlM-yRssUYgbykhtd0uguPnqkhTvwJw-aLE04B4KQ" />
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h2 class="title is-2 publication-title">Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation</h2>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://heshuting555.github.io/" target="_blank">Shuting He</a><sup>1</sup>,&nbsp;</span>
+                <span class="author-block">
+                <a href="https://henghuiding.github.io/" target="_blank">Henghui Ding</a><sup>2 </sup><sup><object id="object" data="static/images/envelope.svg" width="16" height="16" type="image/svg+xml"></object> </sup>,&nbsp;</span>
+                <span class="author-block">
+                  <a href="">Wei Jiang</a><sup>1</sup>,&nbsp;</span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup>Zhejiang University&nbsp;&nbsp;&nbsp;&nbsp;
+                      <sup>2</sup>Nanyang Technological University&nbsp;&nbsp;&nbsp;&nbsp;
+                  </div>
+
+                   <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                  <object id="object" data="static/images/envelope.svg" width="20" height="20" type="image/svg+xml" style="position:relative;top:3px;"></object> Project Leader & Corresponding Author
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+<!--                       <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span> -->
+                      <!-- </a> -->
+                    <!-- </span> -->
+
+                     <span class="link-block">
+                      <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_Semantic-Promoted_Debiasing_and_Background_Disambiguation_for_Zero-Shot_Instance_Segmentation_CVPR_2023_paper.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>PDF</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/heshuting555/D2Zero" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2305.13173" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Youtube link -->
+                  <span class="link-block">
+                    <a href="https://www.youtube.com/watch?v=-Wci6cJAyRE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>YouTube</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <center><img src="static/DemoImages/teaser.png" border="0" width="100%"></center>
+      <!-- <h2 class="subtitle has-text-centered"> -->
+        <div align="center"><p style="text-align:justify; text-justify:inter-ideograph;width:100%">Figure 1. Two key challenges in generalized zero-shot instance segmentation. 1) <b>Bias issue</b>: the model tends to label novel objects with seen categories, <i>e.g.</i>, ZSI incorrectly classifies unseen class "dog" as training class "horse". 2) <b>Background ambiguation</b>: objects that do not belong to any training categories are considered background, <i>e.g.</i>, "parking meter" and "fire hydrant".<p></div><br> 
+      <!-- </h2> -->
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p style="text-align:justify; text-justify:inter-ideograph;">
+      Zero-shot instance segmentation aims to detect and precisely segment objects of unseen categories without any training samples. Since the model is trained on seen categories, there is a strong bias that the model tends to classify all the objects into seen categories. Besides, there is a natural confusion between background and novel objects that have never shown up in training. These two challenges make novel objects hard to be raised in the final instance segmentation results. It is desired to rescue novel objects from background and dominated seen categories. To this end, we propose D<sup>2</sup>Zero with Semantic-Promoted Debiasing and Background Disambiguation to enhance the performance of Zero-shot instance segmentation. Semantic-promoted debiasing utilizes inter-class semantic relationships to involve unseen categories in visual feature training and learns an input-conditional classifier to conduct dynamical classification based on the input image. Background disambiguation produces image-adaptive background representation to avoid mistaking novel objects for background. Extensive experiments show that we significantly outperform previous state-of-the-art methods by a large margin, <i>e.g.</i>, <b>16.86%</b> improvement on COCO.
+    </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+    </div>
+    <section class="section" id="Visualization">
+    <div class="container is-max-desktop content">
+      <h2 class="title">D<sup>2</sup>Zero Framework</h2>
+     <center><img src="static/DemoImages/Framework.png" border="0" width="100%"></center><br>
+        <div align="center"><p style="text-align:justify; text-justify:inter-ideograph;width:100%">Figure 2. Framework overview of our <b>D<sup>2</sup>Zero</b>. The model proposes a set of class-agnostic masks and their corresponding proposal embeddings. The proposed input-conditional classifier takes semantic embeddings and proposal embeddings as input and generates image-specific prototypes. Then we use these prototypes to classify image embeddings, under the supervision of both seen CE loss L<sub>s</sub> and unseen CE loss L<sub>u</sub>. The unseen CE loss enables unseen classes to join the training of feature extractor. We collect all the masks and produce a background mask, then apply this mask to the image feature to generate an image-adaptive background prototype for classification.<p></div>
+    </div>
+</section>
+
+
+
+<section class="section" id="Experiments">
+  <div class="container is-max-desktop content">
+  <h2 class="title">Experiments</h2>
+    <!-- <center> -->
+     <center><caption><b>TABLE 1. Results on GZSIS.</b><br>“cp” denotes copy-paste strategy of ZSI, i.e., sharing instances between seen and unseen groups.</caption></center>
+     <center><img src="static/DemoImages/GZSI_results.png" border="0" width="66%"></center><br><br>
+
+     <center><caption><b>TABLE 2. Results on ZSIS.</b><br></caption></center>
+     <center><img src="static/DemoImages/ZSI_results.png" border="0" width="66%"></center><br><br>
+
+
+    <!-- </center> -->
+    </div>
+</section>
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      Please consider to cite D<sup>2</sup>Zero if it helps your research.
+      <pre><code>@inproceedings{D2Zero,
+  title={Semantic-Promoted Debiasing and Background Disambiguation for Zero-Shot Instance Segmentation},
+  author={He, Shuting and Ding, Henghui and Jiang, Wei},
+  booktitle={CVPR},
+  year={2023}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">CVPR Presentation</h2> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe  src="https://www.youtube.com/embed/-Wci6cJAyRE?rel=0&amp;showinfo=0"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="License">
+  <div class="container is-max-desktop content">
+  <h2 class="title">License</h2>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"  target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></br>
+D<sup>2</sup>Zero is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 License</a>.
+  <!-- </center> -->
+    </div>
+</section>
+
+
+<a href="https://clustrmaps.com/site/1bus7" title="Visit tracker" target="_blank"><img src="//www.clustrmaps.com/map_v2.png?d=p_ZXyIXf12C7DTBaZ38bxsV4WchMbtAaMKEW2Wzgthc&cl=ffffff" height="1" width="1"/ style="display:block;margin-top:5px;margin-bottom:0px;margin-left:auto;text-align:right"></a>
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+
+            <center><font size=2>© Henghui Ding | Last updated: 23/5/2023</font></center>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
